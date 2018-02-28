@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="網頁內容說明網頁內容說明網頁內容說明網頁內容說明網頁內容說明網頁內容說明網頁內容說明網頁內容說明網頁內容說明網頁內容說明網頁內容說明">
+	<meta name="keywords" content="關鍵字1, 關鍵字2, 關鍵字3">
+	<meta property="fb:app_id" content="">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="填入你的網址url">
+	<meta property="og:image" content="填入你FB的顯示圖url">
+	<meta property="og:title" content="FB網頁標題">
+	<meta property="og:description" content="Fb網頁說明">
+	<title>範例內頁</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<style>
+	body{
+		background-image: url(img/bg_festival.png);
+	}
+	  
+</style>
+<body>
+<div id="main">
+	<header>
+		<div class="logo"> <a href="index.html"><img src="img/logo.png" alt=""/></a> </div>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="inner.html">導覽1</a></li>
+			<li><a href="inner2.html">導覽2</a></li>
+			<li><a href="inner3.html">導覽3</a></li>
+			<li><a href="#">導覽4</a></li>
+			<li><a href="#">導覽5</a></li>
+			<li><a href="#">導覽6</a></li>
+		</ul>
+	</nav>
+  <div class="center_1">
+	  
+  </div>
+</div>
+<footer class="clearfix">
+	<div class="inner_wrap">
+		<div class="left">
+			<ul>
+			<li><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+			<li><a href="https://twitter.com/" target="_blank">Twitter</a></li>
+			<li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+			<li><a href="mailto:abcd@gmail.com">Contact</a></li>
+			</ul>
+		</div>
+		<div class="right">© 2018 銘傳大學教學使用</div>
+	</div>
+</footer>
+<script>
+	function click_area(a){
+		//alert(a)
+		document.getElementById("area1").style.display="none";
+		document.getElementById("area2").style.display="none";
+		document.getElementById("area3").style.display="none";
+		if(a==1){
+			document.getElementById("area1").style.display="block";
+		}else if(a==2){
+			document.getElementById("area2").style.display="block";
+		}else{
+			document.getElementById("area3").style.display="block";
+		}
+	}
+</script>
+</body>
+</html>

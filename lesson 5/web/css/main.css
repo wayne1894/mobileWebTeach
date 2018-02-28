@@ -10,9 +10,9 @@ ul{
 	margin: 0;
 }
 body{
-	margin: 0;
-	padding: 0;
-	margin-top: 10px;
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
 }
 #main{
 	width: 1000px;
@@ -61,7 +61,6 @@ nav ul li{
 	float: left;
 	width: 20%;
 	height: 500px;
-	background-color: aliceblue;
 }
 .c_left li{
 	height: 40px;
@@ -71,7 +70,11 @@ nav ul li{
 .c_right{
 	float: right;
 	width: 80%;
-	height: 500px;
+	min-height: 500px;
+	background-color: aliceblue;
+}
+.center_1 {
+	width: 100%;
 }
 .center_4 .talk{
 	width: 25%;
@@ -79,7 +82,25 @@ nav ul li{
 	float: left;
 	margin-top: 20px;
 	padding: 5px;
-
+}
+.center_5 .cc_left{
+	width: 50%;
+	float: left;
+	padding: 10px;
+	padding-left: 0;
+}
+.center_5 .cc_right{
+	width: 50%;
+	float: right;
+	padding: 10px;
+	padding-right: 0;
+}
+.center_5  img{
+	width: 100%;
+	cursor: pointer;
+}
+.center_5  img:hover{
+	opacity: .7;
 }
 .change_map{
 	margin-top: 20px;
@@ -102,6 +123,7 @@ footer{
   min-width: 1000px;
   font-size: 16px;
   color: #ffffff;
+  margin-top: 15px;
 }
 .inner_wrap{
 	max-width: 1000px;

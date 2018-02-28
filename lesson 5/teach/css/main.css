@@ -1,0 +1,70 @@
+/* CSS Document */
+* {
+	  -webkit-box-sizing: border-box;
+		 -moz-box-sizing: border-box;
+			  box-sizing: border-box;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}#main {
+    width: 1000px;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    padding-top: 0px;
+    padding-right: 15px;
+    padding-bottom: 0px;
+    padding-left: 15px;
+}
+header {
+    background-color: aquamarine;
+    height: 130px;
+    width: 100%;
+    padding-top: 15px;
+}
+.logo {
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    width: 100px;
+}
+
+header .logo img {
+    width: 100%;
+}
+nav {
+    background-color: #74a3a1;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    line-height: 50px;
+}
+#main nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+#main nav ul li {
+    display: inline-block;
+    width: 100px;
+}
+#main nav ul li a {
+    display: inline-block;
+    width: 100px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+#main nav ul li a:hover  {
+    display: inline-block;
+    width: 100px;
+    color: #F91BC8;
+    text-decoration: underline;
+}
