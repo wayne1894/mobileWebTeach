@@ -1,0 +1,159 @@
+/* CSS Document */
+* {
+	  -webkit-box-sizing: border-box;
+		 -moz-box-sizing: border-box;
+			  box-sizing: border-box;
+	}
+ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+}
+#main{
+	width: 1000px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+header{
+	width: 100%;
+	height: 130px;
+	background-color: aquamarine;
+	padding-top: 15px;
+}
+header .logo{
+	width: 100px;
+	height: 100px;
+	margin: 0 auto;
+}
+header .logo img{
+	width: 100%;
+	height: 100%;
+}
+nav{
+	background-color: azure;
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+}
+nav ul{
+	background-color: beige;
+}
+nav ul li{
+	display: inline-block;
+	width: 100px;
+	background-color: red;
+}
+.center {
+	margin-top: 20px;
+}
+.center ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+.c_left{
+	float: left;
+	width: 20%;
+	height: 500px;
+}
+.c_left li{
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+}
+.c_right{
+	float: right;
+	width: 80%;
+	min-height: 500px;
+	background-color: aliceblue;
+}
+.center_1 {
+	width: 100%;
+}
+.center_4 .talk{
+	width: 25%;
+	text-align: center;
+	float: left;
+	margin-top: 20px;
+	padding: 5px;
+}
+.center_5 .cc_left{
+	width: 50%;
+	float: left;
+	padding: 10px;
+	padding-left: 0;
+}
+.center_5 .cc_right{
+	width: 50%;
+	float: right;
+	padding: 10px;
+	padding-right: 0;
+}
+.center_5  img{
+	width: 100%;
+	cursor: pointer;
+}
+.center_5  img:hover{
+	opacity: .7;
+}
+.change_map{
+	margin-top: 20px;
+}
+.change_video{
+	margin-top: 10px;
+}
+.video{
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.map{
+	margin-top: 10px;
+}
+footer{
+  background-color: dimgray;
+  height: 105px;
+  width: 100%;
+  min-width: 1000px;
+  font-size: 16px;
+  color: #ffffff;
+  margin-top: 15px;
+}
+.inner_wrap{
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 25px 15px;
+}
+footer .left{
+  float: left;
+}
+footer .right{
+  float: right;
+  letter-spacing: 2px;
+}	
+footer ul li{
+  display: inline-block;
+  margin-right: 25px;
+}
+footer ul li a{
+  color: #ffffff;
+  text-decoration: none;
+}
+footer ul li a:hover{
+/*  text-decoration: underline;*/
+  border-bottom: 1px solid #ffffff;
+}
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
